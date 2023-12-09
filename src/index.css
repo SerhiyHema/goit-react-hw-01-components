@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aquamarine;
+  background-color: rgb(127, 255, 127);
 }
 
 code {
@@ -42,28 +42,28 @@ code {
   align-items: center;
 }
 
-.description>.avatar {
+.description > .avatar {
   width: 100px;
   border: 2px inset #7563dc;
   border-radius: 50%;
 }
 
-.description>.name {
+.description > .name {
   font-size: 20px;
   font-weight: 700;
 }
 
-.description>.tag {
+.description > .tag {
   font-size: 15px;
   font-weight: 400;
 }
 
-.description>.location {
+.description > .location {
   font-size: 15px;
   font-weight: 400;
 }
 
-.profile>.stats {
+.profile > .stats {
   padding: 0;
   width: 100%;
   display: flex;
@@ -71,7 +71,7 @@ code {
   column-gap: 40px;
 }
 
-.stats>li {
+.stats > li {
   display: flex;
   flex-direction: column;
   row-gap: 5px;
@@ -106,7 +106,7 @@ code {
   align-items: center;
 }
 
-.stat-list>li {
+.stat-list > li {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -114,27 +114,27 @@ code {
   align-items: center;
 }
 
-.stat-list>li:nth-child(1):hover {
+.stat-list > li:nth-child(1):hover {
   background-color: rgb(0, 208, 255);
   border-radius: 5px;
 }
 
-.stat-list>li:nth-child(2):hover {
+.stat-list > li:nth-child(2):hover {
   background-color: rgb(221, 255, 0);
   border-radius: 5px;
 }
 
-.stat-list>li:nth-child(3):hover {
+.stat-list > li:nth-child(3):hover {
   background-color: rgb(77, 255, 0);
   border-radius: 5px;
 }
 
-.stat-list>li:nth-child(4):hover {
+.stat-list > li:nth-child(4):hover {
   background-color: rgb(0, 38, 255);
   border-radius: 5px;
 }
 
-.stat-list>li:nth-child(5):hover {
+.stat-list > li:nth-child(5):hover {
   background-color: rgb(16, 178, 227);
   border-radius: 5px;
 }
@@ -152,7 +152,7 @@ code {
   padding: 30px;
 }
 
-.friend-list>.item {
+.friend-list > .item {
   display: flex;
   flex-direction: column;
   row-gap: 5px;
@@ -160,11 +160,11 @@ code {
   position: relative;
 }
 
-.item>.name {
+.item > .name {
   margin: 0;
 }
 
-.item>.status-on {
+.item > .status-on {
   width: 10px;
   height: 10px;
   position: absolute;
@@ -174,7 +174,7 @@ code {
   border-radius: 50%;
 }
 
-.item>.status-off {
+.item > .status-off {
   width: 10px;
   height: 10px;
   position: absolute;
